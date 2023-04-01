@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'ui/home_page.dart';
 //import 'column_widget.dart';
 //import 'row_widget.dart';
-import 'baris_kolom.dart';
+//import 'baris_kolom.dart';
+//import '/ui/poli_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,9 +17,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Klinik',
+      debugShowCheckedModeBanner: false,
       //home: ColumnWidget(),
       //home: RowWidget(),
-      home: BarisKolomWidget(),
+      //home: BarisKolom(),
+      //home: PoliPage(),
+      home: HomePage(),
     );
   }
 }
